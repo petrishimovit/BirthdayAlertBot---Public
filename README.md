@@ -70,15 +70,19 @@ BirthdayBot automatically checks for upcoming birthdays and sends congratulatory
 ```
 .
 ├── bot/
-│   ├── main.py               # Main bot script
-│   ├── handlers/             # Command and message handlers
-│   ├── utils/                # Utility functions
-│   └── models/               # Database models
-├── db/                       # Database configuration
+│   ├── main.py 
+│   ├── loader.py
+│   ├── config.py # Pydantic-Settings config
+│   ├── handlers/ 
+│       ├── keyboards/
+│       ├── rotes/
+│       ├── states/               
+│   ├── utils                     
+│   └── database/ 
 ├── Dockerfile                # Docker configuration
 ├── docker-compose.yml        # Docker Compose configuration
-├── requirements.txt          # List of dependencies
-└── README.md                 # Project documentation
+├── requirements.txt          
+└── README.md                 
 ```
 
 ## 📝 Notes
