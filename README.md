@@ -41,7 +41,7 @@ BirthdayBot automatically checks for upcoming birthdays and sends congratulatory
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-project.git](https://github.com/petrishimovit/BirthdayAlertBot---Public
+   git clone https://github.com/petrishimovit/BirthdayAlertBot---Public
    cd your-project
    ```
 
