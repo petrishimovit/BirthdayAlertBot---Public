@@ -1,10 +1,6 @@
-Sure! Here is the project description in English:
-
----
-
 # BirthdayBot
 
-**BirthdayBot** is a Telegram bot for the **"BANYA-2025"** group that automates birthday greetings for members. The bot checks daily for upcoming birthdays and sends congratulatory messages with photos.
+**BirthdayBot** is a Telegram bot for the group that automates birthday greetings for members. The bot checks daily for upcoming birthdays and sends congratulatory messages with photos.
 
 ## 📄 Description
 
