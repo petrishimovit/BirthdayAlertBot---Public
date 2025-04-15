@@ -15,13 +15,13 @@ BirthdayBot automatically checks for upcoming birthdays and sends congratulatory
 ### ✅ Adding a New Person
 - Through an FSM form, users can add a new person to the database.
   - The user provides the name, surname, birthdate, and uploads a photo.
-  - The data is saved in a PostgreSQL database for future checks.
+  - The data is saved in a AISQLite database for future checks.
 
 ### ✅ Date Format Validation
 - Birthdate input must follow the **YYYY-MM-DD** format, with proper validation to ensure correct input.
 
-### ✅ PostgreSQL Support
-- All data is stored in a PostgreSQL database, ensuring safe storage of user information.
+### ✅ AISQLite Support
+- All data is stored in a AISQLite database, ensuring safe storage of user information.
 - SQLAlchemy is used to interact with the database.
 
 ### ✅ Docker Support
@@ -32,7 +32,7 @@ BirthdayBot automatically checks for upcoming birthdays and sends congratulatory
 - **Python 3.13.1**
 - **Aiogram** — for working with the Telegram API.
 - **SQLAlchemy** — for interacting with the database.
-- **PostgreSQL** — the database for storing user data.
+- **AISQLite** — the database for storing user data.
 - **Docker** — for containerization of the app.
 - **FSM (Finite State Machine)** — for handling user input step by step.
 
