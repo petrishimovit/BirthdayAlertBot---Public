@@ -34,7 +34,6 @@ BirthdayBot automatically checks for upcoming birthdays and sends congratulatory
 - **SQLAlchemy** — for interacting with the database.
 - **AISQLite** — the database for storing user data.
 - **Docker** — for containerization of the app.
-- **FSM (Finite State Machine)** — for handling user input step by step.
 
 ## 🛠 Installation and Setup
 
